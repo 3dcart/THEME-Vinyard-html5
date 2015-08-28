@@ -227,7 +227,7 @@ jQuery(window).bind('orientationchange', function (event) {
 });
 
 /* Initiates <select> for Sub-Category & Blog menus at a specified width. */
-/*if (jQuery(window).width() <= 767) {
+if (jQuery(window).width() <= 767) {
 
     jQuery('#subcategoriesBlock .sub-categories-format').each(function () {
         var list = jQuery(this),
@@ -272,7 +272,7 @@ jQuery(window).bind('orientationchange', function (event) {
     jQuery('#blog .blogNav select, #subcategoriesBlock select, #modManufacturer select').change(function () {
         window.location.href = jQuery(this).val();
     });
-}*/
+}
 
 /*!
     SlickNav Responsive Mobile Menu v1.0.1
